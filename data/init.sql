@@ -1,0 +1,10 @@
+CREATE DATABASE test;
+
+  use test;
+
+  CREATE TABLE users (
+    id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    fullname VARCHAR(30) NOT NULL,
+    telno VARCHAR(17) NOT NULL,
+    date TIMESTAMP
+  );
